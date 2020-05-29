@@ -1,0 +1,23 @@
+{
+  "name": "osc2obs",
+  "version": "1.0.0",
+  "description": "Translate OSC packets to OBS Websocket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heycarl/osc2obs.git"
+  },
+  "author": "Alexandr Efimchik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heycarl/osc2obs/issues"
+  },
+  "homepage": "https://github.com/heycarl/osc2obs#readme",
+  "dependencies": {
+    "node-osc": "^5.1.0",
+    "obs-websocket-js": "^4.0.1"
+  }
+}
